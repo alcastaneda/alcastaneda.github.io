@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 20px;
+}
+
+ul{
+ list-style: none;
+}
+
+.middle div{
+  margin: auto;
+  width: 40%;
+}
+
+.middle div img{
+  width: 100%;
+}
+
+
