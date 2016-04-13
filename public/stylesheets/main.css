@@ -10,7 +10,7 @@ body{
   margin: 0px;
 }
 
-/*Nav bar Styling*/
+/*NAV BAR STYLING*/
 ul{
  list-style: none;
  margin: 0em;
@@ -26,7 +26,7 @@ nav{
     position: fixed;
     left: 0px;
     right: 0px;
-    background-color: #D3D3D3;
+    background-color: #3e3e3e;
     opacity: 0.8;
 }
 
@@ -37,10 +37,13 @@ nav li{
 
 a{
   text-decoration: none;
-  opacity: 1;
 }
 
-/*section styling*/
+nav a{
+  color: white;
+}
+
+/*SECTION STYLING*/
 section{
   padding: 1rem 1rem 1rem 1rem;
 }
@@ -48,7 +51,7 @@ section{
 h1{
   padding:  2rem;
 }
-/*About me Styling*/
+/*ABOUT ME STYLING*/
 .about-me{
  background-color: #85BDBF;
  width: 100%;
@@ -61,15 +64,40 @@ h1{
 
 .about-me div img{
   width: 100%;
+  border-radius: 100%;
 }
 
 body{
   text-align: center;
 }
 
-/*Contact me styling*/
+/*RESUME STYLING*/
+.resume img{
+  width: 20%;
+}
+
+/*CONTACT ME STYLING*/
 .contact-me{
   background-color: #C2FCF7;
 }
 
+/*.contact-me img{
+  width: 20%;
+}*/
+
+.contact-me li{
+  width: 8%;
+  display: inline-block;
+}
+
+/*FOOTER STYLING*/
+
+footer{
+  background-color: #040F0F;
+  color: #C9FBFF;
+  font-size: .5rem;
+}
+footer a{
+  color: #85BDBF;
+}
 
