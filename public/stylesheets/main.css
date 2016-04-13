@@ -110,3 +110,11 @@ footer a{
   color: #85BDBF;
 }
 
+/*LINK HOVER STYLING*/
+a:hover{
+  color: #e55ea2;
+}
+
+a img:hover{
+  transform: rotate(10deg);
+}
