@@ -7,7 +7,7 @@
 
     <nav>
       <ul>
-        <li><a href="#" title="">Resume</a></li>
+        <li><a href="#resume" title="">Resume</a></li>
         <li><a href="#about_me" title="">About Me</a></li>
         <li><a href="#contact_me" title="">Contact Me</a></li>
       </ul>
@@ -18,14 +18,19 @@
   </header>
 
 <body>
-
+<a name="about_me"></a>
   <section class="about-me">
-      <a name="about_me"></a>
         <%=yield%>
   </section>
 
+<a name="resume"></a>
   <section>
-    <a name="contact_me"></a>
+    <h3>Resume</h3>
+        <a href="./2016resume.pdf" title="" download="adriana_resume.pdf">Download Resume</a>
+  </section>
+
+<a name="contact_me"></a>
+  <section class="contact-me">
     <%= erb :contact_me %>
   </section>
 </body>

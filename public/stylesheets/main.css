@@ -6,6 +6,10 @@ html{
   font-size: 20px;
 }
 
+body{
+  margin: 0px;
+}
+
 /*Nav bar Styling*/
 ul{
  list-style: none;
@@ -17,6 +21,14 @@ ul{
   position: fixed;
   width: 100%;
 }*/
+nav{
+    top: 0px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    background-color: #D3D3D3;
+    opacity: 0.8;
+}
 
 nav li{
   width: 30%;
@@ -25,9 +37,23 @@ nav li{
 
 a{
   text-decoration: none;
+  opacity: 1;
 }
 
-/*Yield Styling*/
+/*section styling*/
+section{
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+h1{
+  padding:  2rem;
+}
+/*About me Styling*/
+.about-me{
+ background-color: #85BDBF;
+ width: 100%;
+}
+
 .about-me div{
   margin: auto;
   width: 40%;
@@ -39,6 +65,11 @@ a{
 
 body{
   text-align: center;
+}
+
+/*Contact me styling*/
+.contact-me{
+  background-color: #C2FCF7;
 }
 
 
