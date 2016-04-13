@@ -1,3 +1,6 @@
+/*email icon*/
+/*<a href="" title="" target="_blank"><img src="./my-icons-collection/svg/letter.svg" alt=""></a></li>*/
+
 *{
   box-sizing: border-box;
 }
@@ -28,6 +31,8 @@ nav{
     right: 0px;
     background-color: #3e3e3e;
     opacity: 0.8;
+    padding: .5rem;
+    font-size: .8rem;
 }
 
 nav li{
@@ -45,11 +50,15 @@ nav a{
 
 /*SECTION STYLING*/
 section{
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 2rem 1rem 5rem 1rem;
 }
 
 h1{
   padding:  2rem;
+}
+
+h3{
+  padding-bottom: 1rem;
 }
 /*ABOUT ME STYLING*/
 .about-me{
