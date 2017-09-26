@@ -6,40 +6,14 @@
 }
 
 html{
-  font-size:35px;
+  font-size: 40px;
 }
 
 body{
   margin: 0px;
   font-family: 'Maven Pro', sans-serif;
-  text-align: center;
-  color: #2e2e2e;
 }
 
-.wrapper{
-  width: 80%;
-  margin: 0px auto;
-}
-
-h1{
-  font-size: 2rem;
-  color: #4f2674;
-}
-
-.profile-pic{
-  display: inline-block;
-  float: left;
-  width: 30%;
-}
-.profile-pic img{
-  height: 500px;
-}
-
-.blurb{
-  float: left;
-  width: 60%;
-  height: 500px;
-}
 /*NAV BAR STYLING*/
 ul{
  list-style: none;
@@ -47,40 +21,72 @@ ul{
  padding: 0px;
 }
 
+/*nav{
+  position: fixed;
+  width: 100%;
+}*/
 nav{
-  background-color: white;
-  padding-right: .5rem;
-  padding-left: .5rem;
+    top: 0px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    background-color: #3e3e3e;
+    opacity: 0.8;
+    padding: .5rem;
+    font-size: .8rem;
 }
+
 nav li{
-  border:#e55ea2 3px solid;
-  padding: .25rem;
+  width: 30%;
   display: inline-block;
-  color: #e55ea2;
 }
 
 a{
   text-decoration: none;
 }
 
+nav a{
+  color: white;
+}
+
 /*SECTION STYLING*/
 section{
-  /*padding: 2rem 1rem 5rem 1rem;*/
+  padding: 2rem 1rem 5rem 1rem;
+}
+
+h1{
+  font-size: 2.5rem;
+  padding:  4rem;
+  color: #4f2674;
 }
 
 h3{
-  /*padding-bottom: 1rem;*/
+  padding-bottom: 1rem;
   font-family: 'Permanent Marker', cursive;
 }
 /*ABOUT ME STYLING*/
-
-.about-me p{
-  margin: 0px auto;
-  font-size: .8em;
-  width: 80%;
+.about-me{
+ background-color: #85BDBF;
+ width: 100%;
 }
 
+.about-me div{
+  margin: auto;
+  width: 40%;
+}
 
+.about-me div img{
+  width: 100%;
+  border-radius: 100%;
+}
+
+.about-me p{
+  font-size: .8em;
+}
+
+body{
+  text-align: center;
+}
 
 /*RESUME STYLING*/
 .resume img{
@@ -88,6 +94,13 @@ h3{
 }
 
 /*CONTACT ME STYLING*/
+.contact-me{
+  background-color: #C2FCF7;
+}
+
+/*.contact-me img{
+  width: 20%;
+}*/
 
 .contact-me li{
   width: 8%;
@@ -96,6 +109,14 @@ h3{
 
 /*FOOTER STYLING*/
 
+footer{
+  background-color: #040F0F;
+  color: #C9FBFF;
+  font-size: .5rem;
+}
+footer a{
+  color: #85BDBF;
+}
 
 /*LINK HOVER STYLING*/
 a:hover{
@@ -107,13 +128,13 @@ a img:hover{
 }
 
 
-/*@media (max-width: 570px){
+@media (max-width: 570px){
   nav ul li{
     font-size: .5rem;
   }
 
   h1{
-    font-size: 1rem;
+    font-size: 2rem;
     padding: 3.5rem 0rem 3.5rem 0rem;
   }
 
@@ -134,4 +155,7 @@ a img:hover{
     padding: .5rem;
   }
 }
-*/
+
+<!-- <footer>
+  <p>Icons by <a href="http://www.flaticon.com/packs/social-hand-drawn" title="">Agata</a></p>
+</footer> -->

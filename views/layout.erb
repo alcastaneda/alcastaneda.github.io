@@ -2,43 +2,44 @@
 <html>
 <head>
   <title>Adriana</title>
+  <meta name="google-site-verification" content="SI00vYjqmnTJLSVQx7sN0jWsPSnGntjODFPMG_-gMWg" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Permanent+Marker|Maven+Pro:400,900' rel='stylesheet' type='text/css'>
  <link rel="stylesheet" type="text/css" href="./stylesheets/main.css">
 </head>
-
-    <nav>
-      <ul>
-        <li><a href="#resume" title="">Resume</a></li>
-        <li><a href="#about_me" title="">About Me</a></li>
-        <li><a href="#contact_me" title="">Contact Me</a></li>
-      </ul>
-    </nav>
-
-  <header>
-      <h1>Hello World</h1>
-  </header>
-
 <body>
-<a name="about_me"></a>
-  <section class="about-me">
-        <%=yield%>
+  <header><h1>Adriana Castaneda</h1></header> 
+<div class="wrapper">
+  <section class="profile-pic">
+    <img src="./profile.jpg">
   </section>
 
-<a name="resume"></a>
-  <section class="resume">
-    <h3>Download Resume</h3>
-        <a href="./2016resume.pdf" title="" download="adriana_resume.pdf"><img src="./my-icons-collection/svg/paper.svg" alt=""></a>
+  <section class="blurb">
+      <nav>
+        <ul>
+          <li id="about-me">About Me</li>
+          <li id="contact-me">Contact Me</li>
+          <li id="resume">Resume</li>
+         <!--  <li id="resources">Resources</li> -->
+        </ul>
+      </nav>
+    <article class="about-me">
+      <%= erb :about_me%>
+    </article>
+    <article class="contact-me">
+      <%= erb :contact_me %>
+    </article>
+    <article class="resume">
+      <%= erb :resume %>
+    </article>
+  <!--   <article class="resources">
+      <h3>Resources</h3>
+    </article> -->
   </section>
 
-<a name="contact_me"></a>
-  <section class="contact-me">
-    <%= erb :contact_me %>
-  </section>
-</body>
-
-<footer>
-  <p>Icons by <a href="http://www.flaticon.com/packs/social-hand-drawn" title="">Agata</a></p>
-</footer>
+  </body>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="./scripts/main.js"></script>
 
 </html>
