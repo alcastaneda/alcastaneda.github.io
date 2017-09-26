@@ -7,3 +7,7 @@ $("nav li").on("click",function(){
 	$("article").hide();
 	$("."+className).show();
 });
+
+$(".logo").on("click", function(){
+	$(".logo").hide();
+});

@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
 html{
   font-size:35px;
 }
@@ -14,6 +22,21 @@ body{
   font-family: 'Maven Pro', sans-serif;
   text-align: center;
   color: #2e2e2e;
+}
+
+
+.logo{
+  position: fixed;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  /*background: url("https://media.giphy.com/media/Cv7wrQjYcd6hO/giphy.gif");*/
+  background-image: url("https://media.giphy.com/media/9svhot8rVfudG/giphy.gif");
+  background-size: cover;
+}
+.logo img{
+  margin-top:3rem;
+  width: 40%;
 }
 
 .wrapper{
@@ -48,7 +71,6 @@ ul{
 }
 
 nav{
-  background-color: white;
   padding-right: .5rem;
   padding-left: .5rem;
 }
@@ -106,32 +128,22 @@ a img:hover{
   transform: rotate(10deg);
 }
 
-
-/*@media (max-width: 570px){
-  nav ul li{
-    font-size: .5rem;
+@media(max-width: 1220px){
+  html{
+    font-size: 25px;
   }
 
-  h1{
-    font-size: 1rem;
-    padding: 3.5rem 0rem 3.5rem 0rem;
+  .blurb{
+    float: right;
   }
 
-  .about-me div{
-    width: 100%;
-  }
-
-  .about-me p{
-    font-size: .5rem;
-  }
-
-  .resume img{
-    width: 50%;
-  }
-
-  .contact-me li{
-    width: 45%;
-    padding: .5rem;
-  }
 }
-*/
+
+
+
+@media (max-width: 688px){
+  .profile-pic, .blurb{
+      float: none;
+      width: 100%;
+    }
+}
