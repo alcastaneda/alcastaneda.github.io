@@ -33,6 +33,7 @@ body{
   /*background: url("https://media.giphy.com/media/Cv7wrQjYcd6hO/giphy.gif");*/
   background-image: url("https://media.giphy.com/media/9svhot8rVfudG/giphy.gif");
   background-size: cover;
+  opacity: 0.96;
 }
 .logo img{
   margin-top:3rem;
@@ -79,6 +80,11 @@ nav li{
   padding: .25rem;
   display: inline-block;
   color: #e55ea2;
+}
+
+nav li:hover{
+  background-color: #ffe9ec;
+  color: #4f2674;
 }
 
 a{
@@ -130,7 +136,7 @@ a img:hover{
 
 @media(max-width: 1220px){
   html{
-    font-size: 25px;
+    font-size: 28px;
   }
 
   .blurb{
@@ -139,7 +145,22 @@ a img:hover{
 
 }
 
+@media(max-width: 988px){
+  html{
+    font-size: 20px;
+  }
+  .wrapper{
+    width: 90%;
+  }
+  h1{
+    font-size: 3rem;
+  }
 
+  .blurb{
+    margin-top: 3rem;
+  }
+
+}
 
 @media (max-width: 688px){
   .profile-pic, .blurb{
