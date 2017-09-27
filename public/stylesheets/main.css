@@ -14,7 +14,7 @@
 }
 
 html{
-  font-size:35px;
+  font-size:30px;
 }
 
 body{
@@ -90,6 +90,20 @@ h1{
   background-color: white;
   padding-top: 1rem;
   border-radius: 2rem;
+}
+
+.points{
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.points li{
+  margin-left: 3rem;
+  font-size: .8em; 
+}
+.points li:before {
+  content: "- ";
+  /*text-indent: -5px;*/
 }
 /*NAV BAR STYLING*/
 ul{
