@@ -24,6 +24,7 @@ body{
   color: #2e2e2e;
   background: url("../triangle2.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
@@ -74,10 +75,12 @@ h1{
   display: inline-block;
   float: left;
   width: 30%;
+  border-radius: 2rem;
 }
+
 .profile-pic img{
   height: 500px;
-  border-radius: 2rem;
+  
 }
 
 .blurb{
