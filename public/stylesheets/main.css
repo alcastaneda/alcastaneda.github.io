@@ -105,7 +105,7 @@ nav li{
   color: #e55ea2;
 }
 
-nav li:hover{
+nav li:hover, button:hover{
   background-color: #ffe9ec;
   color: #4f2674;
 }
@@ -115,9 +115,6 @@ a{
 }
 
 /*SECTION STYLING*/
-section{
-  /*padding: 2rem 1rem 5rem 1rem;*/
-}
 
 h3{
   /*padding-bottom: 1rem;*/
@@ -139,11 +136,50 @@ h3{
 }
 
 /*CONTACT ME STYLING*/
-
-.contact-me li{
-  width: 8%;
+.contact-me ul{
+  width: 10%;
   display: inline-block;
 }
+
+.contact-me li{
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+form{
+  display: inline-block;
+  width: 50%;
+  margin-left: 1rem;
+  padding-top:1rem;
+}
+form input, form textarea {
+    margin-bottom: 0.5rem;
+}
+input, textarea {
+    font-size: 0.8rem;
+    font-family: 'proxima-nova-soft', sans-serif;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 0.9rem;
+    width: 100%;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+button, a.button {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid #4f2674;
+    color: #4f2674;
+    background: transparent;
+    line-height: .5rem;
+    padding: 0.6rem 0.5rem;
+  }
 
 /*FOOTER STYLING*/
 
