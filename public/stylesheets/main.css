@@ -42,7 +42,8 @@ body{
   width: 100%;
 }
 .logo img{
-  width: 300px;
+  width: 18rem;
+  margin: 1rem;
 }
 
 .logo p{
