@@ -10,4 +10,5 @@ $("nav li").on("click",function(){
 
 $(".logo").on("click", function(){
 	$(".logo").hide();
+	$(".background").hide();
 });
