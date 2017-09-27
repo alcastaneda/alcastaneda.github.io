@@ -41,6 +41,9 @@ body{
   opacity: 1;
   width: 100%;
 }
+.logo img{
+  width: 300px;
+}
 
 .logo p{
   border: 4px solid #2e2e2e;
