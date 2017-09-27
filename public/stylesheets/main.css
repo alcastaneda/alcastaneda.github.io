@@ -145,20 +145,24 @@ h3{
 .contact-me li{
   display: block;
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 form{
   display: inline-block;
   width: 50%;
   margin-left: 1rem;
-  padding-top:1rem;
+  padding-top:.5rem;
 }
 form input, form textarea {
     margin-bottom: 0.5rem;
 }
+input{
+  height: 1rem;
+}
 input, textarea {
-    font-size: 0.8rem;
+    font-size: 0.5rem;
+    line-height: .1rem;
     font-family: 'proxima-nova-soft', sans-serif;
     border: 1px solid #ddd;
     background: #fff;
@@ -169,6 +173,7 @@ input, textarea {
 textarea {
     overflow: auto;
     vertical-align: top;
+    height: 5rem;
 }
 
 button, a.button {
@@ -220,6 +225,13 @@ a img:hover{
     margin-top: 3rem;
   }
 
+  input, textarea{
+    font-size: 1rem;
+  }
+  textarea{
+    height: 8rem;
+  }
+
 }
 
 @media screen and (max-width: 688px){
@@ -239,6 +251,29 @@ a img:hover{
   .logo img{
     width: 60%;
   }
+
+  input, textarea{
+    font-size: 1rem;
+  }
+  textarea{
+    height: 8rem;
+  }
+
+  .contact-me ul{
+    display: block;
+    width:100%;
+  }
+  .contact-me li{
+    display: inline-block;
+    width:10%;
+    margin-bottom: 0rem;
+    margin-left: .5rem;
+  }
+
+  form{
+    margin-top:1.5rem;
+  }
+
 }
 
 
