@@ -1,0 +1,23 @@
+@media(max-width: 988px){
+  html{
+    font-size: 20px;
+  }
+  .wrapper{
+    width: 90%;
+  }
+  h1{
+    font-size: 3rem;
+  }
+
+  .blurb{
+    margin-top: 3rem;
+  }
+
+  input, textarea{
+    font-size: 1rem;
+  }
+  textarea{
+    height: 8rem;
+  }
+
+}
