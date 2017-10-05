@@ -9,7 +9,11 @@
     margin-bottom: 2rem;
     padding-bottom: 2rem;
   }
-  .logo p{
+  nav li {
+    padding: 5px;
+    font-size: .7rem;
+  }
+   .logo p{
     width: 55%;
   }
   .logo img{
