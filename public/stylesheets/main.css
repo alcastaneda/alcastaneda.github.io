@@ -229,71 +229,9 @@ a img:hover{
 
 }
 
-@media(max-width: 988px){
-  html{
-    font-size: 20px;
-  }
-  .wrapper{
-    width: 90%;
-  }
-  h1{
-    font-size: 3rem;
-  }
 
-  .blurb{
-    margin-top: 3rem;
-  }
 
-  input, textarea{
-    font-size: 1rem;
-  }
-  textarea{
-    height: 8rem;
-  }
 
-}
-
-@media screen and (max-width: 688px){
-  .profile-pic, .blurb{
-      float: none;
-      width: 100%;
-    }
-  .blurb{
-    background-color: rgba(255,255,255,.9);
-    height: 70%;
-    margin-bottom: 2rem;
-    padding-bottom: 2rem;
-  }
-  .logo p{
-    width: 55%;
-  }
-  .logo img{
-    width: 60%;
-  }
-
-  input, textarea{
-    font-size: 1rem;
-  }
-  textarea{
-    height: 8rem;
-  }
-
-  .contact-me ul{
-    display: block;
-    width:100%;
-  }
-  .contact-me li{
-    display: inline-block;
-    width:10%;
-    margin-bottom: 0rem;
-    margin-left: .5rem;
-  }
-
-  form{
-    margin-top:1.5rem;
-  }
-
-}
 
 
 .confetti
